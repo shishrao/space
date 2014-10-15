@@ -1,0 +1,59 @@
+html, body 
+{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color:#cccccc;
+  font-family:"Segoe UI", Segoe, Verdana;
+  font-weight:100;
+  font-size:90%;
+}
+h1, h2, h3, h4, h5, h6 {
+  display:inline;
+  font-weight:100;
+  color:#ffffff;
+}
+a, a:hover, a:visited {
+  color:#889ccb;
+  text-decoration:none;
+}
+a:hover {
+  color:#657590;
+}
+#space {
+  background-color:#000000;
+  border:none;
+}
+#content-container {
+  position:fixed;
+  top:0px;
+  right:0px;
+}
+#info-container {
+  position:absolute;
+  top:10px;
+  right:10px;
+  width:250px;
+  height:20px;
+  background-color:rgba(255,255,255,0.1);
+  padding:15px;
+  overflow:hidden;
+}
+#star-info table tr td:first {
+  width:40%;
+  font-weight:bold;
+}
+.hdr-container {
+  margin-bottom:15px;
+}
+.btn {
+  cursor:hand;
+}
+.right {
+  float: right;
+}
+.hide {
+  display:none;
+}

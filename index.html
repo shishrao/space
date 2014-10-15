@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Space test</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+  <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+  <script type="text/javascript" src="js/space.js"></script>
+  <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+  <div id="space-container">
+    <canvas id="space" width="100%" height="100%">
+      No canvas support!
+    </canvas>
+  </div>
+  <div id="content-container">
+    <div id="info-container">
+      <div class="hdr-container">
+        <h4>Options</h4>
+        <span class="btn right"><a id="btn-info-close" href="#">&#x25BC;</a></span><!--&#x25B2;-->
+      </div>
+      <div class="hdr-container">
+        <a id="btn-tab-home" href="#">Home</a> | 
+        <a id="btn-tab-star" href="#">Star</a> | 
+        <a id="btn-tab-fun" href="#">Fun</a>
+      </div>
+      <div id="content-home">
+        <h1>Space!</h1>
+        <br />
+        This HTML5 app provides a way to look at the night sky. Star data is fetched using Yale Bright Star Catalogue (J2000). This works best in Chrome.<br />
+        <br />
+        <span class="small">By Shishir Rao</span>
+        <br />
+        <br />
+        <p><input id="chk-asdf" type="checkbox" /><label>Grid lines</label><p />
+        <p><input id="chk-asdf" type="checkbox" /><label>Common star names</label><p />
+        <p><input id="chk-asdf" type="checkbox" /><label>Constellations</label><p />
+        <p><input id="chk-asdf" type="checkbox" /><label>Constellation names</label><p />
+        <p><input id="chk-asdf" type="checkbox" /><label>Ecliptic</label><p />
+      </div>
+      <div id="content-star" class="hide">
+        <h1>Common name</h1><br />
+        <h2>Scientific name</h2><br />
+        <div id="star-info">
+          Select the star to view the details here
+        </div>
+      </div>
+      <div id="content-fun" class="hide">
+        (Coming soon)
+        <br />
+        Fun stuff goes here :)
+      </div>
+    </div>
+    <div id="options-container">
+      
+    </div>
+  </div>
+  <!-- Call after page is rendered -->
+  <script type="text/javascript" lang="javascript" src="js/page.js"></script>
+</body>
+</html>
